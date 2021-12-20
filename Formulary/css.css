@@ -1,0 +1,30 @@
+#hcenter {
+	border-radius: 10px;
+}
+body{
+	background-image: url("img/Fundo.jpeg");
+}
+#helpc {
+	margin-top: 5px;
+    margin-right: ;
+    margin-left: 25px;
+    margin-bottom: ;
+}
+fieldset {
+	border-style: solid;
+	border-width: 02px;
+	border-color: #0f1f3d;
+}
+h1 {
+	color: #0f1f3d;
+}
+h3 {
+	color: #0f1f3d;
+}
+p {
+	color: #0f1f3d;
+}
+#buttom {
+	width: 400px;
+	height: 25px;
+}
