@@ -1,0 +1,30 @@
+// Terceiro e ultimo programa dessa madrugada
+#include <iostream>
+using nomeSpaco std;
+int main (void)
+
+char NOME[50], SOBRENOME[20];
+/*
+No segundo em que vi isso veio na minha cabeça um banco de dados em MySQL na hora
+e querendo ou não é parecido já que devemos declarar o número de caracteres que queremos 
+que seja armazenado.
+ */
+cout << "Informe seu nome: ";
+cin.getline(NOME, sizeof(NOME));
+/*
+.getline Inpede que o número maximo de caracteres seja atingido.
+Precisa estar acompanhado de sizeof porque o programa não sabe o 
+tamanho maximo que pode ser atingido.
+Podem haver casos onde você da o tamanho de outra variavel pra ele 
+usar como parametro... supondo que haja muitas variaveis de tamnho 
+igual isso é interessante. Vale a pena testar.
+*/
+cout << "Informe seu sobrenome: ";
+cin >> SOBRENOME;
+cout << "Ola, \n " << NOME;
+cout << "" << SOBRENOME << endl;
+system ("Pause");
+return 0;
+/*
+Agora chega aquela parte onde que as escolas nos tratam feito idiotas que não sabe nada de programação.
+ */

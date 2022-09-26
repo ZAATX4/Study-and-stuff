@@ -1,0 +1,18 @@
+#include <iostream>
+#define PI 3.14159
+#define NL '\n'
+using namespace std;
+int main()
+{
+    double raio=5, circulo;
+    circulo=2*PT*raio;
+    cout << circulo;
+    cout << NL;
+    cout << NL;
+    system("Pause");
+}
+/*
+Tecnicamente é uma variavel fixa, definida aidna aintes das funções de forma publica, isso é muito nice.
+Muito bom quando formos pra questões como herança, que eu imagino que exista aqui entre as funções.
+Gostei muito desse pdf, ele explica a inportancia da logica matemática aqui.
+*/

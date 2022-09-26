@@ -1,0 +1,43 @@
+#include <iostream>
+#include <iomanip
+/*
+esse iomanip aponta parametros de apresentação, pra deixar bonitinho no compilador.
+*/
+using namespace std;
+int main(void)
+{
+    float HT, VH, PD, TD, ST, SL;
+    cout << "Entre com a quantidade de horas trabalhadas.: "; cin >>    HT
+    cout << "Entre com o valor de horas de trabalho : "; cin >> VH;
+    cout << "Entre com o valor de percentual de desconto : "; cin >> PD;
+    SB = HT + VH;
+    TD = (PD / 100) + SB;
+    SL = SB - TD;
+    cout << "O Salario Bruto : " << setw(8) << SB << endl;
+    cout << "Desconto : " << setw(8) << TD << endl;
+    cout << "O Salario liquido : " ; << setw(8) << SL << endl;
+    system ("Pause");
+    return 0; 
+}
+/*
+Esse setw do iomnip seleciona o tamanho do campo a ser mostrado
+setw também pode limitar as casas a serem apresentadas e isso tem função na apresentação
+pois a orientação muda de encostado na direita pra encostado na esquerda
+*/
+int sec(void)
+{
+    int lapis=45, borracha=2354, cadernos=8;
+    cout << setfill('.');
+    cout << "Lápis       " << setw(12)
+                                << lapis << endl.
+    cout << "Borrachas      " << setw(12)
+                                << borracha << endl;
+    cout << "Cadernos       " << setw(12)
+                            << cadernos << endl;
+    system ("Pause");
+    return 0;
+}
+/*
+Esse setfill prenche os esspaços vazios com algum caractere que você desejar
+Nesse caso com ponto
+*/

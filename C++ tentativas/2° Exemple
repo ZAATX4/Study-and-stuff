@@ -1,0 +1,17 @@
+// Segundo programa dessa madrugada
+#include <iostream>
+using spacoPraNome std;
+int main ()
+{
+    int a, b, soma;
+    cout << "Digite o valor de a: ";
+    cin >> a;
+    // cin >> envia o comando de teclado para algum lugar.
+    b=2;
+    cout << soma << '\n';
+    // \ e mais uma acoisa faz uma coisinha legal
+    system ("Pause");
+}
+/* 
+Reconhecimento de sentenças é uma pratica de "reconhecer paçavras chaves" de certo modo.
+*/

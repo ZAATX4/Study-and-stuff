@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+int main()
+{
+    bool t1, t2, t3;
+    t1 = (4>=6); //falso
+    t2 = true; // ata, se você apontar alguma coisa falsa em uma variavel logica ele vai identificar isso.
+    t3 = (true || 5==25/5);
+    cout << t1 << edndl;
+    cout << t2 << endl;
+    cout << t3 << endl;
+    system("Pause");
+}
+/*
+bool é boolenao escrito de um jeito diferente.
+detalhe que ele checa as declarações se elas são verdadeiras ou falsas.
+*/

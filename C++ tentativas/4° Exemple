@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int idade;
+    cout<< "Digite a sua idade: ";
+    cin>> idade;
+    cout<< "Sua idade daqui 10 anos sera "
+        << idade+10 << "anos" << endl;
+        system("Pause");
+        return 0;
+}
+/* 
+é um capitulo sobre variaveis, aquela coisa basica 
+da pra resaltar o detalhe que C++ é case sensitive 
+Outro detalhe notavel, é que C++ é bem pareecido com MySql mesmo
+Parece que os dois são feitos um para o outro fofo :3
+*/

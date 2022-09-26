@@ -1,0 +1,34 @@
+// This is a firt test of C++
+#include <iostream>
+/*"#""aponta um parametro a ser seguido uma regra por assim dizer.
+Essa regra no caso é de incluir a biblioteca padrão "iostream".*/
+using qualquerNome std;
+int principal(void)
+/* using aponta algo que vai ser usado
+
+std é standart aponta a função padrão de algumas coisas, é bom escrever ai uma vez pra não precisar escrever 500 vezes no mesmo codigo.
+Ainda assim, talvez seja necessario escrever outro parametro de funcção algumas vezes (Especulação)
+Exemplo de uso sem isso dai:
+std: : cout <<
+
+void inpede que essa função retorne valor pois aponta que não existe valor conhecido
+main é a primeira função a ser executada não importa onde ela esteja no codigo.
+Tudo em C++ é uma função
+*/
+{
+    cout << "Oi mundo" << endl;
+    /*cout manda uma instrução pra aparecer na tela
+    endl é "end line" abreviado, isso pula uma linha basicamente.
+    << é um operador de fluxo de saida, presta atenção nele que ele tem muitos usos.*/
+    system ("Pause");
+    // "Pause" é uma função
+}
+/* É muito possivel escrever:
+cout << "Oi Mundo" << endl; system ("Pause");
+E continuar com o codigo funcionando...
+Mais fica feio.
+
+Identação é uma coisa que eu não sabia do que se tratava até agora 19/09/2022 as 01:10 AM.
+Basicamente é aquele lance automatico que faz o codigo ir pra direita no editor de texto.
+Basicamente é a funcção da tecla Tab.
+*/

@@ -1,0 +1,47 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int fim=0;
+    cout << fim << endl;
+    system("Pause");
+    return 0;
+}
+/* 
+Tecnicamente ele fala que o valor é zero...
+Mais que nem sempre o pc entende isso, logo ele manda o que tá na memoria.
+Em textos, deixe um espaço vazio, em numeros declare zero e fatores logicos são true até que se prove o contrario.
+Outro detalhe é que Java copiou C e C++ copiou Java, as coisas modernas do C++ são copia de java moderno.
+*/
+int sec()
+{
+    int a, b, d;
+    a=5;
+    b=3;
+    d=a/b;
+    cout << d << endl;
+    float c;
+    c=a/b;
+    cout<< c << endl;
+    system("Pause");
+    return 0;
+}
+/*
+... isso não é uma novidade para você, float é fracionado
+Essa IDE trofca os tipos de variaveis altomaticamente para elas baterem certinho umas com as outras.
+Double > Float porque Double é mais preciso, só que consome mais memoria, e não queremos isso.
+*/
+int trd()
+{
+    char nome[8];
+    cout << "Digite o nome do meu Crush: ";
+    cin >> nome;
+    cout << "O nome dele é: " << nome << endl;
+    system("Pause");
+    return 0 ;
+}
+/*
+String tem que ser adicionadas no include, mais ela age como se fosse pad~ra então blz
+Na verdade... O unico motivo para você usar char é pra economizar na ram.
+*/
