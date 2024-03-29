@@ -10,3 +10,5 @@ Gotta find a domain :p
 
 ** Social Media <br>
 <a href="https://twitter.com/isaac_calil">Twitter</a><br>
+
+Now-a-days this repo is currently not used at all, but i will keep it here
